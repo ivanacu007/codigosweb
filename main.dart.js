@@ -78865,13 +78865,14 @@ s=A.eA(o.h(0,"email"),p,p,p,B.hb,p,p)
 r=A.eA(A.aCG().vs("Hm").wF(o.h(0,"created").Fe()),p,p,p,B.xZ,p,p)
 r=A.iV(A.b([r,A.eA(!J.d(o.h(0,"message"),"")?o.h(0,"message"):"Sin respuesta",p,p,p,B.xZ,p,p)],t.D),B.id,B.b1,B.bf)
 q=o.h(0,"active")?B.E3:B.Eb
-return A.nX(p,new A.IN(s,r,A.aoN(q,o.h(0,"active")?B.rK:B.IO,p),p),B.at,!1,p,p,p,p,p,p,p,p,p,p,p,p,p,p,new A.ae9(this.a,a,o),p,p,p)},
+return A.nX(p,new A.IN(s,r,A.aoN(q,o.h(0,"active")?B.rK:B.IO,p),p),B.at,!1,p,p,p,p,p,p,p,p,p,p,p,p,p,p,new A.ae9(this.a,o,a),p,p,p)},
 $S:501}
 A.ae9.prototype={
-$0(){var s=this.a
-s.Q=B.b.ga3(this.b.b.b.a)
-s.as=this.c.h(0,"email")
-s.e.fy.sm(0,!0)},
+$0(){var s,r=this.b
+if(!r.h(0,"active")){s=this.a
+s.Q=B.b.ga3(this.c.b.b.a)
+s.as=r.h(0,"email")
+s.e.fy.sm(0,!0)}},
 $S:0}
 A.ae0.prototype={
 $0(){var s=this.a
